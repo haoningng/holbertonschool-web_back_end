@@ -14,4 +14,4 @@ def task_wait_random(max_delay: int) -> Awaitable[int]:
     Argument:
     max_delay(int): argument
     """
-    return asyncio.Task(wait_random(max_delay))
+    return asyncio.create_task(wait_random(max_delay))
