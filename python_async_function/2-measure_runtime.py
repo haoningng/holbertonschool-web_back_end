@@ -15,7 +15,9 @@ async def measure_time(n: int, max_delay: int) -> float:
     n(int): number of times wait_random is called
     max_delay(int): max delay time for wait_random
     """
-    s: float = time.perf_counter()
-    results: List[float] = await wait_n(n, max_delay)
-    total_time: float = time.perf_counter() - s
-    return total_time/n
+    start_time = time.time()
+    asyncio.run(wait_n(n, max_delay))
+    end_time = time.time()
+    total_time = end_time - start_time
+    average_time = total_time / n
+    return average_time
