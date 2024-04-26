@@ -79,6 +79,9 @@ class Server:
             new_dict["next_page"] = None
         else:
             new_dict["next_page"] = page + 1
-        new_dict["prev_page"] = page - 1
+        if page = 1:
+            new_dict["prev_page"] = None
+        else:
+            new_dict["prev_page"] = page - 1
         new_dict["total_pages"] = total_pages
         return new_dict
