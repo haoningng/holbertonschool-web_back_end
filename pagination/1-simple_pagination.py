@@ -40,6 +40,14 @@ class Server:
         return self.__dataset
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
+        """Find the correct indexes to paginate the dataset correctly
+        and return the appropriate page of the dataset
+        (i.e. the correct list of rows)
+
+        Arguments:
+        page(int): page number
+        page_size(int): number of row per page
+        """
         assert (isinstance(page, int) and isinstance(page_size, int)
                 and page > 0 and page_size > 0)
         if self.__dataset is None:
