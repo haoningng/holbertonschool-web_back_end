@@ -1,4 +1,4 @@
-# Python (Programming Language) & MongoDB (NoSQL)
+# Python (Programming Language) & MongoDB (NoSQL) & Javascript (ES6)
 These are my projects in Web Backend Development, completed as part of my Full Stack Software Engineering Course in Holberton School Australia
 
 ## Projects:
@@ -7,6 +7,8 @@ These are my projects in Web Backend Development, completed as part of my Full S
 * [Python - Async Comprehension](python_async_comprehension/)
 * [NoSQL](NoSQL/)
 * [Pagination](pagination/)
+* [ES6 - Basics](ES6_basic/)
+* [ES6 - Clases](ES6_classes/)
 
 ## Requirements:
 * Ubuntu 20.04 LTS
@@ -14,4 +16,6 @@ These are my projects in Web Backend Development, completed as part of my Full S
 * PyMongo (version 3.10)
 * MongoDB (version 4.2)
 * pycodestyle (version 2.5.*)
+* NodeJS 12.11.x
+* Jest, Babel, and ESLint
 * Text editor (V/Vim, Emacs)
