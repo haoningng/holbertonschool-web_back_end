@@ -9,6 +9,8 @@ These are my projects in Web Backend Development, completed as part of my Full S
 * [Pagination](pagination/)
 * [ES6 - Basics](ES6_basic/)
 * [ES6 - Clases](ES6_classes/)
+* [ES6 - Promises](ES6_promise/)
+* [ES6 - data manipulation](ES6_data_manipulation/)
 
 ## Requirements:
 * Ubuntu 20.04 LTS
