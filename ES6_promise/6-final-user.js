@@ -8,7 +8,7 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
       for (const each of values) {
         newList.push({
           status: each.status,
-          value: each.status === 'fulfilled' ? each.value : each.reason.message,
+          value: each.status === 'fulfilled' ? each.value : `Error: ${each.reason.message}`,
         });
       }
       return newList;
